@@ -41,7 +41,7 @@ app.get('/', (req, res)=> {
  //            'biking',
  //            'Cities'
  //        ]
- //    });
+    //  //  });
     res.render('home.hbs',{
         pageTitle: 'Home page',
         welcomeMessage: 'Hello to you!'
